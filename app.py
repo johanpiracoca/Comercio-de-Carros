@@ -5,7 +5,7 @@ import numpy as np
 import plotly.express as px
 
 # Cargar datos
-car_data = pd.read_csv("https://github.com/johanpiracoca/Comercio-de-Carros/blob/main/vehicles_us.csv")
+car_data = pd.read_csv("https://raw.githubusercontent.com/johanpiracoca/Comercio-de-Carros/main/vehicles_us.csv")
 
 # Poner título
 st.header('¡Lo mejor en el mundo de los automoviles!', divider = "gray")
